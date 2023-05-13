@@ -1,0 +1,159 @@
+/*! DESKTOP CSS START */
+@media (min-width:768px) {
+    .desk-d-none {
+        display: none !important;
+    }
+
+    .heading {
+        padding-bottom: 2rem;
+    }
+
+    .Collaborate-section {
+        padding: 3rem;
+        padding-right: 7rem;
+    }
+
+    .boxes-container {
+        margin-top: 3rem;
+    }
+
+
+
+    .box {
+        display: flex;
+        flex-direction: row;
+        /* align-items: center; */
+        justify-content: center;
+        gap: 6rem;
+        /* height: max-content; */
+    }
+
+    .box h1 {
+        font-weight: 400;
+        font-size: 2.9rem;
+    }
+
+
+    .text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 50%;
+
+    }
+
+    .image-container {
+        /* height: max-content; */
+        width: 50%;
+    }
+
+    .btn {
+        padding-bottom: 2rem;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1500px) {
+
+    .image-container img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
+@media screen and (min-width: 1500px) {
+    .image-container {
+        flex: 1;
+        text-align: center;
+    }
+
+    .image-container {
+        flex: 1;
+        text-align: center;
+    }
+
+    .image-container img {
+        width: 40rem;
+        height: 100%;
+    }
+
+    .box h1 {
+        font-weight: 400;
+        font-size: 4rem;
+    }
+
+    .box p {
+        font-size: 2.5rem;
+    }
+
+    .path-btn {
+        font-size: 2.5rem;
+    }
+
+    .heading {
+        font-size: 2.5rem;
+    }
+}
+
+
+@media screen and (max-width: 1300px) {
+
+    .image-container img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+
+    .image-container img {
+        width: 56rem;
+    }
+}
+
+/* DESKTOP CSS END */
+
+
+
+
+
+
+
+
+/*! MOBILE CSS START */
+@media (max-width:768px) {
+    .mb-d-none {
+        display: none !important;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        align-items: self-start;
+        justify-content: center;
+        gap: 1rem;
+        /* border: 1px solid black; */
+        padding: 2rem 10px;
+    }
+
+    .box p {
+        font-size: 1.2rem;
+    }
+
+    .box h1 {
+        font-weight: 400;
+        font-size: 2.4rem;
+    }
+
+    .path-btn {
+        font-weight: 700;
+        font-size: large;
+        color: #007bff;
+    }
+}
+
+/*MOBILE CSS END */

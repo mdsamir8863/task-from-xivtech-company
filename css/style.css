@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box p {
+    font-size: 1.4rem;
+    font-weight: lighter;
+}
+
+
+.link-arrow img {
+    display: inline-block;
+    transition: 0.5s ease-in-out;
+}
+
+.link-arrow:hover img {
+    transform: translateX(50%);
+}
+
+.link-arrow:hover {
+    opacity: .6;
+}
+
+.path-btn {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+    font-weight: 600;
+}
+
+.heading {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+
+
+
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: .9s ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
