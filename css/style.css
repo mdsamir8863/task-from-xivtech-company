@@ -11,7 +11,6 @@
 
 
 .link-arrow img {
-    display: inline-block;
     transition: 0.5s ease-in-out;
 }
 
@@ -31,6 +30,7 @@
     font-size: 1.3rem;
     color: black;
     font-weight: 600;
+    width: fit-content;
 }
 
 .heading {
@@ -39,7 +39,26 @@
 }
 
 
+.get-in-touch-btn {
+    cursor: pointer;
+    font-size: 1rem;
+    border: 2px solid transparent;
+    text-decoration: none;
+    background-color: #000;
+    padding: 0 3rem;
+    border-radius: 2px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 5rem;
+    padding: 1rem 2.5rem;
 
+}
+
+.get-in-touch-btn:hover {
+    background-color: #ffffff;
+    color: black;
+    border: 2px solid black;
+}
 
 
 .reveal {
